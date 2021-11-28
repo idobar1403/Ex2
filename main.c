@@ -22,17 +22,22 @@ int main(int argc, char const *argv[])
             scanf("%d%d",&i,&j);
             bool ans=hasPath(mat,i,j);
             if(ans==1){
-                printf("False");
+                printf("True");
             }
             else{
-                printf("True");
+                printf("False");
             }
         }
         else if(func=='C'){
             int i,j;
             scanf("%d%d",&i,&j);
             int ans=shortestPath(mat,i,j);
-            printf("%d\n",ans);
+            if(ans==0){
+                printf("-1");
+            }
+            else{
+                printf("%d\n",ans);
+            }
         }
     }
     return 0;
