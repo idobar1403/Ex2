@@ -32,12 +32,7 @@ int main(int argc, char const *argv[])
             int i,j;
             scanf("%d%d",&i,&j);
             int ans=shortestPath(mat,i,j);
-            if(ans==0){
-                printf("-1");
-            }
-            else{
-                printf("%d\n",ans);
-            }
+            printf("%d\n",ans);
         }
     }
     return 0;
