@@ -15,4 +15,3 @@ my_mat.o: my_mat.c my_mat.h
 # make recursives
 main.o: main.c my_mat.h
 	$(CC) $(FLAGS) -c main.c 
-my_mat.a
