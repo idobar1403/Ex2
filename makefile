@@ -8,10 +8,11 @@ all: connections
 clean: 
 	rm -f *.o *.a *.so connections
 # make loops
-connections: main.o my_mat.o
+connections: main.o my_mat.h my_mat.o 
 	$(CC) $(FLAGS) -o connections main.o my_mat.o
 my_mat.o: my_mat.c my_mat.h
 	$(CC) $(FLAGS) -c my_mat.c 
 # make recursives
 main.o: main.c my_mat.h
 	$(CC) $(FLAGS) -c main.c 
+my_mat.a
