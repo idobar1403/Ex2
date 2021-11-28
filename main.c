@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
         else if(func=='B'){
             int i,j;
             scanf("%d%d",&i,&j);
-            bool ans=hasPath(mat,i,j);
+            int ans=hasPath(mat,i,j);
             if(ans==1){
                 printf("True");
             }

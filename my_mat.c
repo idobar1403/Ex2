@@ -44,11 +44,11 @@ int insertValues(int mat[n][n]){
     }
     return 0;
 }
-bool hasPath(int mat[n][n],int i,int j){
+int hasPath(int mat[n][n],int i,int j){
     if(mat[i][j]==0){
-        return false;
+        return 0;
     }
-    return true;
+    return 1;
 }
 int shortestPath(int mat[n][n],int i,int j){
     if(mat[i][j]==0){
