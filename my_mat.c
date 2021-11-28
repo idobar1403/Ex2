@@ -3,7 +3,7 @@
 #include "my_mat.h"
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 #define MIN(x, y) (((x) < (y)) ? (x) : (y))
-const int n=4;
+#define n 10
 int insertValues(int mat[n][n]){
     int i,j,k;
     int temp[n][n];
