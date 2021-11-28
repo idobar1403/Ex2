@@ -1,7 +1,4 @@
 CC=gcc
-OBJECT_LIBL= basicClassification.o advancedClassificationLoop.o 
-OBJECT_LIBR= basicClassification.o advancedClassificationRecursion.o
-AR=ar
 FLAGS= -Wall -g
 
 #make all
