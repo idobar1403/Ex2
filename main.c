@@ -22,10 +22,10 @@ int main(int argc, char const *argv[])
             scanf("%d%d",&i,&j);
             int ans=hasPath(mat,i,j);
             if(ans==1){
-                printf("True");
+                printf("True\n");
             }
             else{
-                printf("False");
+                printf("False\n");
             }
         }
         else if(func=='C'){
