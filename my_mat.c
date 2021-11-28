@@ -9,7 +9,6 @@ int insertValues(int mat[n][n]){
     int temp[n][n];
     for (i = 0; i < n; i++){
         for (j = 0; j < n; j++){
-            printf("enter value for:%d",mat[i][j]);
             scanf("%d",&mat[i][j]);
             temp[i][j]=mat[i][j];
         }
