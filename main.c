@@ -10,12 +10,6 @@ int main(int argc, char const *argv[])
         scanf(" %c",&func);
         if(func=='A'){
             insertValues(mat);
-            // int i,j;
-            // for (i=0;i<n;i++){
-            //     for (j=0;j<n;j++){
-            //         printf("%d \n",mat[i][j]);
-            //     }
-            // }
         }
         else if(func=='B'){
             int i,j;
